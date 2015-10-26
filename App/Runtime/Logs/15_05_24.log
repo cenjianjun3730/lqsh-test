@@ -1,0 +1,106 @@
+[ 2015-05-24T23:45:03+08:00 ] 127.0.0.1 /newlqsh/1/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.030018s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY id desc  [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `tp_pro` [ RunTime:0.029303s ]
+SQL: SELECT * FROM `tp_pro` ORDER BY hot desc LIMIT 3   [ RunTime:0.000865s ]
+SQL: SELECT * FROM `tp_pro` ORDER BY id desc LIMIT 6   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.116194s ]
+SQL: SELECT * FROM `tp_company` WHERE ( id = 1 )  [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.242591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.242740s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001035s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000847s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003664s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001507s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001582s ]
+
+[ 2015-05-24T23:45:06+08:00 ] 127.0.0.1 /newlqsh/1/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.036419s ]
+INFO: [ route_check ] --END-- [ RunTime:0.036537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8] Undefined index: user D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\AdminAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001412s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001592s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001151s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2015-05-24T23:45:24+08:00 ] 127.0.0.1 /newlqsh/1/Admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.206060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.206355s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000726s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-05-24T23:45:35+08:00 ] 127.0.0.1 /newlqsh/1/Admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000818s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000459s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001904s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-05-24T23:45:36+08:00 ] 127.0.0.1 /newlqsh/1/Admin/banner
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\PHPnow\htdocs\newlqsh\1\App\Runtime\Cache\55862c03ca76446c3614d67d4748dffb.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000530s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000335s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+

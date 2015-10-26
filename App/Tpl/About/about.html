@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>关于</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="{$seo.0.seo}" />
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <!--[if lt IE 9]>
+    <script src="http://res.nie.netease.com/comm/html5/html5shiv.js"></script>
+    <![endif]-->
+
+    <!--页面直接引用less文件-->
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/css/about.css">
+    <script type="text/javascript">
+    	var handleurl = "{:U('newhandle', '', '')}";
+    </script>
+</head>
+
+
+<body>
+
+    <!--内嵌inline/index.html文件-->
+    <nav class="nav clear">
+	<div class="nav-top">
+		<a href="{:U('Index/index')}">
+			<div class="logo"></div>
+		</a>
+		<div class="nav-box">
+			<ul class="clear">
+				<li>
+					<a href="{:U('Index/index')}">
+						<span>首页</span>
+						<div></div>
+					</a>
+				</li>
+				<li>
+					<a href="{:U('Pro/pro')}">
+						<span>产品</span>
+						<div></div>
+					</a>
+				</li>
+				<li>
+					<a href="{:U('Dynamic/dynamic')}">
+						<span>动态</span>
+						<div></div>
+					</a>
+				</li>
+				<li>
+					<a href="{:U('About/about')}"  class="nav-hover" >
+						<span>关于</span>
+						<div></div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<section class="case about clear">
+	<div class="top">
+		<p>
+			<span>公司简介</span>
+			<br />
+			<i>COMPANY PROFILE</i>
+			<br />
+			<b></b>
+		</p> 
+	</div>
+	<div class="center">
+		<div class="intd">
+			<p class="text">{$seo.0.com_int}</p>
+		</div>
+		<div class="dt">
+			<div class="dt-bg"></div>
+			<div class="dt-shade">
+				<div class="left">
+					<div class="src">
+						<h3>公司总地址</h3>
+						<p>
+							广东省广州市
+							<br />
+							广州市
+							<br />
+							广州市
+							<br />
+							广州市
+						</p>
+					</div>
+					<div class="phone">
+						<h3>联系方式</h3>
+						<p>
+							Tel：
+							<br />
+							Fax：
+							<br />
+							E-mail：
+						</p>
+					</div>
+				</div>
+				<div class="right">
+					<form action="{:U('About/handle')}" method="post" name="myform" onsubmit="return check()">
+						<textarea name="content" id="talk" class="talk-boox"></textarea>
+						<div class="user">
+							<input type="text" id ="name" name="name" placeholder="名字">
+							<input type="text" id ="email" name="email" placeholder="邮箱">
+						</div>
+						<input type="button" id="send" class="sub" value="发送消息">
+						<div class="cbr"></div>
+						<div class="notice" style="display: none">发送成功</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="footer-body">
+		<div class="about">
+			<p class="clear">
+				<i></i>
+				<span>关于我们</span>
+			</p>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+		</div>
+		<div class="link">
+			<p class="clear">
+				<i></i>
+				<span>友情链接</span>
+			</p>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+			<a href="javascript:;">超链接接</a>
+		</div>
+		<div class="fans">
+			<p class="clear">
+				<i></i>
+				<span>关注我们</span>
+			</p>
+			<a title="新浪微博" class="weibo" href="javascript:;">新浪微博</a>
+			<a title="腾讯客服" class="qq" href="javascript:;">腾讯客服</a>
+		</div>
+	</div>
+	<div class="copyright">
+		<p>©2015-2016</p>
+	</div>
+</footer>
+
+    <!-- jquery-1.8.3 -->
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/pkg/lib.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/pkg/contactCheck.js"></script>
+</body>
+
+</html>

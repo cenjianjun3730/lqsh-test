@@ -1,0 +1,235 @@
+[ 2015-05-08T01:13:02+08:00 ] 127.0.0.1 /newlqsh/1/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.041595s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY id desc  [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `tp_pro` [ RunTime:0.010015s ]
+SQL: SELECT * FROM `tp_pro` ORDER BY hot desc LIMIT 3   [ RunTime:0.002278s ]
+SQL: SELECT * FROM `tp_pro` ORDER BY id desc LIMIT 6   [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.011795s ]
+SQL: SELECT * FROM `tp_company` WHERE ( id = 1 )  [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.223721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.224007s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.029429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003286s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001605s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037134s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002861s ]
+
+[ 2015-05-08T01:13:07+08:00 ] 127.0.0.1 /newlqsh/1/Pro/pro.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.040187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.040467s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+NOTIC: [8] Undefined index: page D:\wamp\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: page D:\wamp\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tp_pro` [ RunTime:0.007458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pro` LIMIT 1   [ RunTime:0.000916s ]
+NOTIC: [8] Undefined index: c D:\wamp\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 32 行.
+NOTIC: [8] Undefined variable: up D:\wamp\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 32 行.
+NOTIC: [8] Undefined index: c D:\wamp\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 33 行.
+SQL: SELECT * FROM `tp_pro` ORDER BY id desc LIMIT 0,4   [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.007172s ]
+SQL: SELECT * FROM `tp_company` WHERE ( id = 1 )  [ RunTime:0.001788s ]
+NOTIC: [8] Undefined variable: downDisplay D:\wamp\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: c D:\wamp\htdocs\newlqsh\1\App\Runtime\Cache\9e026e4412a008ea71355fcfd8d8c187.php 第 72 行.
+NOTIC: [8] Undefined index: c D:\wamp\htdocs\newlqsh\1\App\Runtime\Cache\9e026e4412a008ea71355fcfd8d8c187.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065118s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001552s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006198s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002093s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2015-05-08T01:13:19+08:00 ] 127.0.0.1 /newlqsh/1/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+NOTIC: [8] Undefined index: user D:\wamp\htdocs\newlqsh\1\App\Lib\Action\AdminAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063480s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001594s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007334s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002372s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002555s ]
+
+[ 2015-05-08T01:13:33+08:00 ] 127.0.0.1 /newlqsh/1/Admin/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011678s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009185s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.086617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086952s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001224s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004181s ]
+
+[ 2015-05-08T01:13:34+08:00 ] 127.0.0.1 /newlqsh/1/Admin/banner
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002737s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\wamp\htdocs\newlqsh\1\App\Runtime\Cache\55862c03ca76446c3614d67d4748dffb.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054252s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001147s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002130s ]
+
+[ 2015-05-08T01:13:45+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+
+[ 2015-05-08T01:15:39+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004449s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004724s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004263s ]
+
+[ 2015-05-08T01:16:04+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004486s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003432s ]
+
+[ 2015-05-08T01:20:32+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004188s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003969s ]
+
+[ 2015-05-08T01:20:36+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006362s ]
+
+[ 2015-05-08T01:22:36+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006029s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005589s ]
+
+[ 2015-05-08T01:24:29+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003254s ]
+
+[ 2015-05-08T01:25:22+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007796s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003150s ]
+NOTIC: [2] md5_file(./Public/banner/1431019520.jpg) [<a href='function.md5-file'>function.md5-file</a>]: failed to open stream: No such file or directory D:\wamp\htdocs\newlqsh\1\ThinkPHP\Extend\Library\ORG\Net\UploadFile.class.php 第 272 行.
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.008295s ]
+SQL: INSERT INTO `tp_banner` (`address`,`time`) VALUES ('/banner/b_1431019520.jpg',1431019522) [ RunTime:0.044905s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026304s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001489s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001651s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001172s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006599s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003165s ]
+
+[ 2015-05-08T01:25:24+08:00 ] 127.0.0.1 /newlqsh/1/Admin/banner
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003901s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant banner - assumed 'banner' D:\wamp\htdocs\newlqsh\1\App\Runtime\Cache\55862c03ca76446c3614d67d4748dffb.php 第 34 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029932s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001590s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001229s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005487s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001943s ]
+
+[ 2015-05-08T01:26:00+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002565s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002814s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+
+[ 2015-05-08T01:26:05+08:00 ] 127.0.0.1 /newlqsh/1/Admin/bannerupdata.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002550s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+

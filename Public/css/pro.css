@@ -1,0 +1,450 @@
+/* CSS Document */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: black;
+}
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+li {
+  list-style: none;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+  font-weight: bold;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+body,
+textarea,
+input,
+button {
+  color: #000;
+}
+html,
+body {
+  width: 100%;
+  min-height: 930px;
+  height: auto;
+  position: relative;
+}
+.hide {
+  display: none;
+}
+/*wrap*/
+.wrap {
+  width: 100%;
+  height: 100%;
+  min-height: 930px;
+  overflow: hidden;
+  position: relative;
+  background-color: #e0e8e5;
+}
+/*===============================
+		[less配置文件]
+===============================*/
+.clear:after {
+  content: ' ';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+  line-height: 0;
+}
+.clear {
+  zoom: 1;
+}
+.cbr {
+  float: left;
+  width: 100%;
+  height: 0px;
+  position: relative;
+}
+html,
+body {
+  font-family: 'Microsoft Yahei', 'Simsun', Tahoma, Arial, sans-serif;
+  min-width: 1000px;
+  background: #f5f5f5;
+  margin: 0px auto;
+}
+.nav {
+  background: #fafafa;
+  height: 77px;
+  border-bottom: 3px solid #66bb54;
+}
+.nav .nav-top {
+  width: 1000px;
+  height: 100%;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+.nav .nav-top .logo {
+  width: 100px;
+  height: 60px;
+  background: center center url("../img/logo.jpg") no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  margin-top: -30px;
+}
+.nav .nav-top .nav-box {
+  height: 100%;
+  float: right;
+}
+.nav .nav-top .nav-box ul {
+  width: 100%;
+  height: 100%;
+}
+.nav .nav-top .nav-box ul li {
+  width: 77px;
+  height: 100%;
+  float: left;
+}
+.nav .nav-top .nav-box ul li a {
+  display: block;
+  text-align: center;
+  line-height: 77px;
+  position: relative;
+  color: #767676;
+}
+.nav .nav-top .nav-box ul li a:hover,
+.nav .nav-top .nav-box ul li a.nav-hover {
+  color: #66bb54;
+}
+.nav .nav-top .nav-box ul li a:hover div,
+.nav .nav-top .nav-box ul li a.nav-hover div {
+  width: 100%;
+  height: 7px;
+  background: #66bb54;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+footer {
+  width: 100%;
+  height: 437px;
+  background: url("../img/footer-bg.jpg") repeat-x;
+}
+footer .footer-body {
+  width: 960px;
+  height: 380px;
+  margin: 0px auto;
+}
+footer .footer-body .about,
+footer .footer-body .link,
+footer .footer-body .fans {
+  float: left;
+  padding-top: 70px;
+  margin-left: 40px;
+}
+footer .footer-body .about p,
+footer .footer-body .link p,
+footer .footer-body .fans p {
+  width: 100%;
+  padding-bottom: 10px;
+}
+footer .footer-body .about p i,
+footer .footer-body .link p i,
+footer .footer-body .fans p i {
+  float: left;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: -4px -234px url("../img/icon.png") no-repeat;
+}
+footer .footer-body .about p span,
+footer .footer-body .link p span,
+footer .footer-body .fans p span {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 18px;
+  color: #bbbbbb;
+  line-height: 24px;
+}
+footer .footer-body .about a,
+footer .footer-body .link a,
+footer .footer-body .fans a {
+  display: block;
+  color: #dddddd;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+footer .footer-body .about a:hover,
+footer .footer-body .link a:hover,
+footer .footer-body .fans a:hover {
+  text-decoration: underline;
+}
+footer .footer-body .link {
+  margin-left: 70px;
+}
+footer .footer-body .link p i {
+  background-position: -52px -234px;
+}
+footer .footer-body .fans {
+  float: right;
+}
+footer .footer-body .fans p i {
+  background-position: -100px -234px;
+}
+footer .footer-body .fans a {
+  text-indent: -9999px;
+}
+footer .footer-body .fans a.weibo,
+footer .footer-body .fans a.qq {
+  display: inline-block;
+  width: 140px;
+  height: 58px;
+  background: -166px -174px url("../img/icon.png") no-repeat;
+}
+footer .footer-body .fans a.weibo:hover,
+footer .footer-body .fans a.qq:hover {
+  background-position: -166px -472px;
+}
+footer .footer-body .fans a.qq {
+  margin-left: 18px;
+  background-position: -324px -174px;
+}
+footer .footer-body .fans a.qq:hover {
+  background-position: -324px -472px;
+}
+footer .copyright {
+  height: 57px;
+  background: #1e1e1e;
+}
+footer .copyright p {
+  text-align: center;
+  line-height: 57px;
+  color: #ffffff;
+}
+.center {
+  width: 960px;
+  height: auto;
+  margin: 0px auto;
+}
+.center .top {
+  width: 100%;
+  margin-top: 50px;
+}
+.center .top h3 {
+  float: left;
+  font-size: 26px;
+  color: #66bb54;
+}
+.center .top h3 span {
+  font-size: 18px;
+  color: #696969;
+  font-weight: normal;
+}
+.center .top .mianbao {
+  float: left;
+  margin: 40px 0px 0px 27px;
+}
+.center .top .mianbao a {
+  font-size: 16px;
+  color: #737373;
+}
+.center .top .mianbao a:hover {
+  color: #2a2a2a;
+  text-decoration: underline;
+}
+.center .top .mianbao span {
+  color: #2a2a2a;
+}
+.center .top .mianbao a.hover {
+  color: #2a2a2a;
+}
+.center .bottom-left {
+  width: 160px;
+  height: auto;
+  margin-top: 40px;
+  float: left;
+}
+.center .bottom-left ul {
+  width: 100%;
+}
+.center .bottom-left ul li {
+  height: 28px;
+}
+.center .bottom-left ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 28px;
+  text-align: center;
+  font-size: 16px;
+  color: #767676;
+}
+.center .bottom-left ul li a:hover {
+  text-decoration: underline;
+}
+.center .bottom-left ul li.hover {
+  border-left: 5px solid #66bb54;
+}
+.center .bottom-left ul li.hover a {
+  color: #66bb54;
+}
+.center .bottom-right {
+  float: right;
+  width: 798px;
+  height: auto;
+  margin-top: 40px;
+  border-left: 1px solid #c4c4c4;
+  padding-bottom: 40px;
+}
+.center .bottom-right .card-all {
+  width: 730px;
+  float: right;
+}
+.center .bottom-right .card {
+  width: 100%;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #add8a4;
+}
+.center .bottom-right .card .card-img {
+  width: 560px;
+  height: 170px;
+  float: left;
+}
+.center .bottom-right .card .card-img img {
+  height: 100%;
+}
+.center .bottom-right .card .card-more {
+  width: 170px;
+  height: 170px;
+  background: #47a134;
+  text-align: center;
+  line-height: 170px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.center .bottom-right .card .card-more span {
+  color: #fff;
+  font-size: 16px;
+}
+.center .bottom-right .card .card-more div {
+  display: none;
+  width: 27px;
+  height: 27px;
+  margin: 72px auto 0px auto;
+  background: -107px -60px url("../img/icon.png") no-repeat;
+}
+.center .bottom-right .card .card-text {
+  float: left;
+  width: 100%;
+}
+.center .bottom-right .card .card-text h3 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #484747;
+  font-weight: normal;
+}
+.center .bottom-right .card .card-text h4 {
+  font-size: 18px;
+  line-height: 22px;
+  color: #9b9b9b;
+  font-weight: normal;
+}
+.center .bottom-right .card .card-text p {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #818080;
+}
+.center .bottom-right .page {
+  float: right;
+}
+.center .bottom-right .page .page-prev {
+  float: left;
+  width: 42px;
+  height: 42px;
+  background: -66px -105px url("../img/icon.png") no-repeat;
+  cursor: pointer;
+}
+.center .bottom-right .page .page-prev.hover {
+  background-position: -66px -403px;
+}
+.center .bottom-right .page .page-prev:hover {
+  background-position: -66px -403px;
+}
+.center .bottom-right .page .page-next {
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin-left: 9px;
+  background: -115px -105px url("../img/icon.png") no-repeat;
+  cursor: pointer;
+}
+.center .bottom-right .page .page-next.hover {
+  background-position: -115px -403px;
+}
+.center .bottom-right .page .page-next:hover {
+  background-position: -115px -403px;
+}
+
+.card-text .p {
+  width: 750px; 
+  height: 60px; 
+  overflow: hidden; 
+  text-indent: 2em;
+}

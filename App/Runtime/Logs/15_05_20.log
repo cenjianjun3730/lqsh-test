@@ -1,0 +1,57 @@
+[ 2015-05-20T00:56:05+08:00 ] 127.0.0.1 /newlqsh/1/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009196s ]
+SQL: SHOW COLUMNS FROM `tp_banner` [ RunTime:0.029100s ]
+SQL: SELECT * FROM `tp_banner` ORDER BY id desc  [ RunTime:0.001734s ]
+SQL: SHOW COLUMNS FROM `tp_pro` [ RunTime:0.041908s ]
+SQL: SELECT * FROM `tp_pro` ORDER BY hot desc LIMIT 3   [ RunTime:0.001532s ]
+SQL: SELECT * FROM `tp_pro` ORDER BY id desc LIMIT 6   [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.025258s ]
+SQL: SELECT * FROM `tp_company` WHERE ( id = 1 )  [ RunTime:0.001566s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074366s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003863s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014922s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006262s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006586s ]
+
+[ 2015-05-20T00:56:09+08:00 ] 127.0.0.1 /newlqsh/1/Pro/pro.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.033649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.034015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005067s ]
+NOTIC: [8] Undefined index: page D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: page D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `tp_pro` [ RunTime:0.007228s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_pro` LIMIT 1   [ RunTime:0.001211s ]
+NOTIC: [8] Undefined index: c D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 32 行.
+NOTIC: [8] Undefined variable: up D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 32 行.
+NOTIC: [8] Undefined index: c D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 33 行.
+SQL: SELECT * FROM `tp_pro` ORDER BY id desc LIMIT 0,4   [ RunTime:0.001415s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.005206s ]
+SQL: SELECT * FROM `tp_company` WHERE ( id = 1 )  [ RunTime:0.002176s ]
+NOTIC: [8] Undefined variable: downDisplay D:\PHPnow\htdocs\newlqsh\1\App\Lib\Action\ProAction.class.php 第 55 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: c D:\PHPnow\htdocs\newlqsh\1\App\Runtime\Cache\9e026e4412a008ea71355fcfd8d8c187.php 第 72 行.
+NOTIC: [8] Undefined index: c D:\PHPnow\htdocs\newlqsh\1\App\Runtime\Cache\9e026e4412a008ea71355fcfd8d8c187.php 第 75 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.105834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001922s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008931s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004547s ]
+
